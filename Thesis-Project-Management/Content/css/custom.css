@@ -1,0 +1,119 @@
+.float_right{float: right;}
+
+.manu_item_background{
+    background: #3c4252 !important;
+}
+.logo a{font-size: 25px;}
+
+.navbar-sidebar{padding-left:0!important; padding-right: 0!important;}
+nav.navbar-sidebar ul li a{padding-left: 30px!important; padding-right: 30px!important;}
+nav.navbar-sidebar ul li a:hover {background: #263d78!important; color: white!important}
+.add_new_proposal{background: #8893ad}
+.table_proposal{overflow: scroll!important;}
+
+
+
+/*  checkbox start */
+.checkboxstyle {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.checkboxstyle input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+
+.contaicheckboxstylener:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.checkboxstyle input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.checkboxstyle input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxstyle .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*  checkbox end */
+
+
+/*  Button color end */
+.btn-info {
+    color: #fff;
+    background-color: #63c76a !important;
+    border-color: #63c76a !important;
+}
+
+
+/*  Form Border */
+
+
+.allform {
+    background: #eee;
+    padding: 25px;
+}
+
+/*  table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
