@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Thesis_Project_Management.Core.Models;
 
 namespace Thesis_Project_Management.Controllers
 {
@@ -25,6 +26,16 @@ namespace Thesis_Project_Management.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult Sample()
+        {
+
+            return View();
+        }
+
+        public ActionResult check(Sample sample)
+        {
+            return null;
         }
     }
 }
